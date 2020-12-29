@@ -2,7 +2,7 @@
 
 int main ()
 {
-  //testing again
+  //testing
   printf("Hello World!");
   return 0;
 }
