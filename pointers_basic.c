@@ -3,6 +3,7 @@
 int main(void)
 {
     int i = 10;
+    
     char a = 'A';
     float f = 2.5;
     int *pnum = &i;
