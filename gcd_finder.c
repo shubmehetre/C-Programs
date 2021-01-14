@@ -9,8 +9,8 @@ void main()
     printf("gcd of 0 and 15 is %d \n", result);
     result = gcdFinder(5, 15);
     printf("gcd of 5 and 15 is %d \n", result);
-    result = gcdFinder(25, 35);
-    printf("gcd of 25 and 35 is %d \n", result);
+    result = gcdFinder(35, 25);
+    printf("gcd of 35 and 25 is %d \n", result);
 }
 
 

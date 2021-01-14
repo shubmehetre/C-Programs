@@ -10,12 +10,12 @@ Date: Started on December 10, 2020
 int main(){
     int arr1[10] = {0};
     int sum = 0;
-    printf("Enter 10 numbers :\n");
+    printf("Enter 10 numbers pls:\n");
     
     
         for (int i = 0; i < 10; i++)
         {    
-            printf("%2u>", i+1);
+            printf("%d>", i+1);
             scanf("%d",&arr1[i]);
             
             if(arr1[i] % 1 == 0)

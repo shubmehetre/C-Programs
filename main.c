@@ -19,7 +19,7 @@ int main()
 
     int year, month;
     float subtot, total;
-
+    printf("Yearly AVERAGES:\n");
     printf("YEAR\t\tRAINFALL  (inches)\n");
 
     for (year = 0, total = 0; year < YEARS; year++)
@@ -34,7 +34,7 @@ int main()
 
     printf("\nThe yearly average is %.1f inches.\n\n",total/YEARS);
 
-    printf("MONTHLY AVERAGES:\n\n");
+    printf("MONTHLY AVERAGES:\n");
     printf(" Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec\n");
 
     for (month = 0; month < MONTHS; month++)

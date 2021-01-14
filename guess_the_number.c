@@ -46,6 +46,6 @@ void main (){
         }
         
         }
-        printf("GAME OVER HAHAHAHA");
+        printf("GAME OVER HAHAHAHA\n");
         
     }

@@ -15,7 +15,7 @@ void bubbleSort ( int a[] , int len)
     int temp = 0;
     for(int i = 0; i < len - 1; i++)
     {
-        for(int j = 0; j < len - i - 1; j++)
+        for(int j = 0; j < len - i - 1; j++)      // lenght is 3 but max index is 2 (0, 1, 2)...so j shud run from 0 to 2...ie 0,1,2...that is len(3) - i(0) - 1 = 2
             if(a[j] > a[j+1])
             {
                 temp = a[j];
@@ -28,4 +28,5 @@ void bubbleSort ( int a[] , int len)
    {
        printf("%d ", a[i]);
    }
+   printf("\n");
 }

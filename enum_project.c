@@ -7,7 +7,7 @@ Date: Started on December 13, 2020
 #include<stdio.h>
 
 int main (){
-    enum company {FACEBOOK, GOOGLE , XEROX, YAHOO, EBAY,MICROSOF};
+    enum company {FACEBOOK, GOOGLE , XEROX, YAHOO, EBAY,MICROSOFT};
     
     
     enum company x;
@@ -28,7 +28,7 @@ int main (){
     case EBAY:
         printf("its ebay");
         break;
-    case MICROSOF:
+    case MICROSOFT:
         printf("its Microsoft");
         break;
     case YAHOO:
