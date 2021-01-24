@@ -19,6 +19,7 @@ struct Node *head;
 
 int main ()
 {
+    // initializing head to NULL
     head =  NULL;
     // Adding random values at random position
     insert (10,1);  //10
@@ -73,8 +74,6 @@ void print()
             /* code */
         }
         printf("\n");
-        
-
 }
 
 void delete (int n)
