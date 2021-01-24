@@ -7,6 +7,8 @@ struct Node                             // Creating a structure for for a Node i
    int data; 
    struct Node *next;                   // Created a Pointer of type Node 
 };
+
+
 int main ()
 {
     struct Node *A;                     // Node pointer for head node
